@@ -1,6 +1,6 @@
 # Transcrição de Áudio
 
-Uma aplicação web moderna para transcrição de áudio em texto usando a API AssemblyAI.
+Uma aplicação web moderna para transcrição de áudio em texto usando a API AssemblyAI e Gemini API
 
 ## Funcionalidades
 
@@ -26,8 +26,8 @@ Uma aplicação web moderna para transcrição de áudio em texto usando a API A
 
 1. Clone o repositório:
 ```bash
-git clone [seu-repositorio]
-cd [seu-repositorio]
+git clone (https://github.com/Keymiuz/WordPressa.git)
+cd https://github.com/Keymiuz/WordPressa.git)
 ```
 
 2. Instale as dependências:
@@ -87,43 +87,7 @@ Sinta-se à vontade para contribuir com o projeto. Abra uma issue ou envie um pu
 This project implements a file upload system with user authentication.
 
 ## Changes Made
-
-### Firebase Integration
-- Integrated Firebase for user authentication.
-- Set up Firebase configuration in `firebaseConfig.ts`.
-- Created authentication hooks in `useAuth.ts` for registration, login, and logout.
-
-### User Upload Limit
-- Implemented a limit of 30 uploads per user.
-- Added logic to prompt users to register after reaching the upload limit.
-
-### UI Components
-- Updated the `Header` component to include login and registration buttons.
-- Created `Login` and `Register` components for user authentication.
-- Modified the `Sidebar` component to handle file uploads and display recent files.
-
-### Toast Notifications
 - Added `react-hot-toast` for displaying notifications to users.
-
-### Cleanup
-- Removed Firebase-related code and authentication logic as per user request.
-- Updated the `Sidebar` component to remove the `uploadFile` function call.
-
-## Installation
-
-To install the necessary packages, run:
-
-```bash
-npm install
-```
-
-## Usage
-
-To run the application, use:
-
-```bash
-npm start
-```
 
 ## License
 
