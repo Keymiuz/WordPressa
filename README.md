@@ -4,13 +4,13 @@ Uma aplicação web moderna para transcrição de áudio em texto usando a API A
 
 ## Funcionalidades
 
-- ✨ Upload de arquivos de áudio por drag-and-drop
-- 📝 Transcrição de áudio para texto em português
-- 🔄 Barra de progresso em tempo real
-- 📋 Copiar texto para área de transferência
-- 💾 Download da transcrição em formato texto
-- 🎯 Suporte para formatos MP3, WAV, M4A e MP4
-- 📊 Estatísticas de palavras e duração
+-  Upload de arquivos de áudio por drag-and-drop
+-  Transcrição de áudio para texto em português
+-  Barra de progresso em tempo real
+-  Copiar texto para área de transferência
+-  Download da transcrição em formato texto
+-  Suporte para formatos MP3, WAV, M4A e MP4
+-  Estatísticas de palavras e duração
 
 ## Tecnologias Utilizadas
 
@@ -82,13 +82,4 @@ A aplicação utiliza a API AssemblyAI para transcrição de áudio. O processo 
 
 Sinta-se à vontade para contribuir com o projeto. Abra uma issue ou envie um pull request.
 
-## Project Overview
 
-This project implements a file upload system with user authentication.
-
-## Changes Made
-- Added `react-hot-toast` for displaying notifications to users.
-
-## License
-
-This project is licensed under the MIT License.
